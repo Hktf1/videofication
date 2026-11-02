@@ -1,0 +1,48 @@
+{
+  "name": "videofication",
+  "private": true,
+  "scripts": {
+    "prepare:15-en": "tsx tools/english15/prepare.ts",
+    "studio:15-en": "remotion studio engine/src/remake15/index.ts --no-open",
+    "prepare:15-2d": "tsx tools/remake15/prepare.ts",
+    "studio:15-2d": "remotion studio engine/src/remake15/index.ts --no-open",
+    "check:15-2d": "tsx tools/remake15/verify.ts",
+    "render:15-2d": "tsx tools/remake15/render.ts",
+    "studio": "tsx tools/studio.ts",
+    "new": "tsx tools/new.ts",
+    "move": "tsx tools/move.ts",
+    "extract": "tsx tools/extract.ts",
+    "chapters": "tsx tools/chapters.ts",
+    "check": "tsx tools/check.ts",
+    "pace": "tsx tools/pace.ts",
+    "sheet": "tsx tools/sheet.ts",
+    "render": "tsx tools/render.ts",
+    "status": "tsx tools/status.ts",
+    "progress": "tsx tools/progress.ts",
+    "tts": "tsx tools/tts.ts",
+    "voices": "tsx tools/voices.ts",
+    "voice": "tsx tools/voice.ts",
+    "merge": "tsx tools/merge.ts",
+    "auto": "tsx tools/auto.ts",
+    "prepare": "tsx tools/prepare.ts",
+    "narration": "tsx tools/narration.ts",
+    "bgm": "tsx tools/make-bgm.ts",
+    "typecheck": "tsc --noEmit",
+    "studio:experiments": "remotion studio engine/src/experiment-index.ts",
+    "test": "tsx --test tools/tests/*.test.ts",
+    "version": "tsx tools/version.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "mammoth": "1.13.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

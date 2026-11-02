@@ -1,0 +1,631 @@
+{
+  "source": "episodes/待发/01-认知行动/中文-极简动效v1-原文-3069a19336/01-1-全文",
+  "sourceHashes": {
+    "script.md": "49bb57132efe0edc2fda7959e6c7932643a47e6d64919b221862ea2f2662157b",
+    "朗读稿.txt": "ecfdd51ac175e52a3f269014483146a52a2367d9dad18f826e6bf5fc0a5d5574",
+    "朗读稿.演出.txt": "6d532f144b792b4492e718da35f5ff96ea23f9bf121b41dc946a86e3d5b7e863",
+    "画面.tsx": "d540812e6af4925a374fcc31a9602acb0852c778acd1d02a9179f61442a73f4b",
+    "画面脚本.md": "d170f19317b6e712f6c62de53be17befd49b2a175c5fc67010e447fc39e79146",
+    "字幕/配音.mp3": "0af109a086042bec7a2c5deba63588ba2beb7bf97a6be62887c3717d67306e69",
+    "字幕/逐字.json": "cc786fb3f363624704a59c41f59d7cbfc3c24ac6d715cc20448c7659f4076518"
+  },
+  "audioStartSeconds": 95.3,
+  "audioEndSeconds": 123.93333333333334,
+  "durationInFrames": 859,
+  "fps": 30,
+  "beats": {
+    "clear": 1660,
+    "higher": 4320,
+    "unstable": 7720,
+    "incoming": 10100,
+    "pleasure": 13100,
+    "certain": 14240,
+    "immediate": 14820,
+    "distant": 17960,
+    "vague": 18640,
+    "ordering": 20960,
+    "covered": 22580,
+    "prefer": 24280,
+    "phone": 27420
+  },
+  "captions": [
+    {
+      "text": "你在那个瞬间，清晰地认知到了",
+      "startMs": 0,
+      "endMs": 2940,
+      "timestampMs": 0,
+      "confidence": null,
+      "sourceLine": 41,
+      "words": [
+        {
+          "text": "你",
+          "atMs": 0
+        },
+        {
+          "text": "在",
+          "atMs": 400
+        },
+        {
+          "text": "那",
+          "atMs": 800
+        },
+        {
+          "text": "个",
+          "atMs": 980
+        },
+        {
+          "text": "瞬",
+          "atMs": 1160
+        },
+        {
+          "text": "间",
+          "atMs": 1460
+        },
+        {
+          "text": "，",
+          "atMs": 1660
+        },
+        {
+          "text": "清",
+          "atMs": 1660
+        },
+        {
+          "text": "晰",
+          "atMs": 2060
+        },
+        {
+          "text": "地",
+          "atMs": 2400
+        },
+        {
+          "text": "认",
+          "atMs": 2520
+        },
+        {
+          "text": "知",
+          "atMs": 2680
+        },
+        {
+          "text": "到",
+          "atMs": 2860
+        },
+        {
+          "text": "了",
+          "atMs": 2960
+        }
+      ]
+    },
+    {
+      "text": "学习的价值高于刷抖音的价值",
+      "startMs": 2940,
+      "endMs": 5920,
+      "timestampMs": 3060,
+      "confidence": null,
+      "sourceLine": 42,
+      "words": [
+        {
+          "text": "学",
+          "atMs": 3060
+        },
+        {
+          "text": "习",
+          "atMs": 3460
+        },
+        {
+          "text": "的",
+          "atMs": 3780
+        },
+        {
+          "text": "价",
+          "atMs": 3880
+        },
+        {
+          "text": "值",
+          "atMs": 4080
+        },
+        {
+          "text": "高",
+          "atMs": 4320
+        },
+        {
+          "text": "于",
+          "atMs": 4600
+        },
+        {
+          "text": "刷",
+          "atMs": 4800
+        },
+        {
+          "text": "抖",
+          "atMs": 5080
+        },
+        {
+          "text": "音",
+          "atMs": 5280
+        },
+        {
+          "text": "的",
+          "atMs": 5480
+        },
+        {
+          "text": "价",
+          "atMs": 5620
+        },
+        {
+          "text": "值",
+          "atMs": 5820
+        }
+      ]
+    },
+    {
+      "text": "但这份清晰，并不稳定",
+      "startMs": 5920,
+      "endMs": 8700,
+      "timestampMs": 6040,
+      "confidence": null,
+      "sourceLine": 43,
+      "words": [
+        {
+          "text": "但",
+          "atMs": 6040
+        },
+        {
+          "text": "这",
+          "atMs": 6780
+        },
+        {
+          "text": "份",
+          "atMs": 6940
+        },
+        {
+          "text": "清",
+          "atMs": 7180
+        },
+        {
+          "text": "晰",
+          "atMs": 7380
+        },
+        {
+          "text": "，",
+          "atMs": 7720
+        },
+        {
+          "text": "并",
+          "atMs": 7720
+        },
+        {
+          "text": "不",
+          "atMs": 8180
+        },
+        {
+          "text": "稳",
+          "atMs": 8400
+        },
+        {
+          "text": "定",
+          "atMs": 8580
+        }
+      ]
+    },
+    {
+      "text": "几分钟后，另一个认知涌现了",
+      "startMs": 8700,
+      "endMs": 11780,
+      "timestampMs": 8820,
+      "confidence": null,
+      "sourceLine": 44,
+      "words": [
+        {
+          "text": "几",
+          "atMs": 8820
+        },
+        {
+          "text": "分",
+          "atMs": 9620
+        },
+        {
+          "text": "钟",
+          "atMs": 9740
+        },
+        {
+          "text": "后",
+          "atMs": 9840
+        },
+        {
+          "text": "，",
+          "atMs": 10100
+        },
+        {
+          "text": "另",
+          "atMs": 10100
+        },
+        {
+          "text": "一",
+          "atMs": 10600
+        },
+        {
+          "text": "个",
+          "atMs": 10730
+        },
+        {
+          "text": "认",
+          "atMs": 10860
+        },
+        {
+          "text": "知",
+          "atMs": 11140
+        },
+        {
+          "text": "涌",
+          "atMs": 11320
+        },
+        {
+          "text": "现",
+          "atMs": 11480
+        },
+        {
+          "text": "了",
+          "atMs": 11740
+        }
+      ]
+    },
+    {
+      "text": "抖音带来的即时快乐是确定的",
+      "startMs": 11780,
+      "endMs": 14700,
+      "timestampMs": 11900,
+      "confidence": null,
+      "sourceLine": 45,
+      "words": [
+        {
+          "text": "抖",
+          "atMs": 11900
+        },
+        {
+          "text": "音",
+          "atMs": 12400
+        },
+        {
+          "text": "带",
+          "atMs": 12520
+        },
+        {
+          "text": "来",
+          "atMs": 12800
+        },
+        {
+          "text": "的",
+          "atMs": 12980
+        },
+        {
+          "text": "即",
+          "atMs": 13100
+        },
+        {
+          "text": "时",
+          "atMs": 13300
+        },
+        {
+          "text": "快",
+          "atMs": 13400
+        },
+        {
+          "text": "乐",
+          "atMs": 13640
+        },
+        {
+          "text": "是",
+          "atMs": 13920
+        },
+        {
+          "text": "确",
+          "atMs": 14240
+        },
+        {
+          "text": "定",
+          "atMs": 14580
+        },
+        {
+          "text": "的",
+          "atMs": 14740
+        }
+      ]
+    },
+    {
+      "text": "立刻到账的",
+      "startMs": 14700,
+      "endMs": 16120,
+      "timestampMs": 14820,
+      "confidence": null,
+      "sourceLine": 46,
+      "words": [
+        {
+          "text": "立",
+          "atMs": 14820
+        },
+        {
+          "text": "刻",
+          "atMs": 15300
+        },
+        {
+          "text": "到",
+          "atMs": 15580
+        },
+        {
+          "text": "账",
+          "atMs": 15760
+        },
+        {
+          "text": "的",
+          "atMs": 16040
+        }
+      ]
+    },
+    {
+      "text": "而学习的回报是遥远的、模糊的",
+      "startMs": 16120,
+      "endMs": 19320,
+      "timestampMs": 16240,
+      "confidence": null,
+      "sourceLine": 47,
+      "words": [
+        {
+          "text": "而",
+          "atMs": 16240
+        },
+        {
+          "text": "学",
+          "atMs": 16760
+        },
+        {
+          "text": "习",
+          "atMs": 17000
+        },
+        {
+          "text": "的",
+          "atMs": 17260
+        },
+        {
+          "text": "回",
+          "atMs": 17340
+        },
+        {
+          "text": "报",
+          "atMs": 17500
+        },
+        {
+          "text": "是",
+          "atMs": 17720
+        },
+        {
+          "text": "遥",
+          "atMs": 17960
+        },
+        {
+          "text": "远",
+          "atMs": 18160
+        },
+        {
+          "text": "的",
+          "atMs": 18420
+        },
+        {
+          "text": "、",
+          "atMs": 18640
+        },
+        {
+          "text": "模",
+          "atMs": 18640
+        },
+        {
+          "text": "糊",
+          "atMs": 19020
+        },
+        {
+          "text": "的",
+          "atMs": 19280
+        }
+      ]
+    },
+    {
+      "text": "你刚刚还清晰无比的价值排序",
+      "startMs": 19320,
+      "endMs": 21640,
+      "timestampMs": 19440,
+      "confidence": null,
+      "sourceLine": 48,
+      "words": [
+        {
+          "text": "你",
+          "atMs": 19440
+        },
+        {
+          "text": "刚",
+          "atMs": 19580
+        },
+        {
+          "text": "刚",
+          "atMs": 19740
+        },
+        {
+          "text": "还",
+          "atMs": 19900
+        },
+        {
+          "text": "清",
+          "atMs": 20040
+        },
+        {
+          "text": "晰",
+          "atMs": 20240
+        },
+        {
+          "text": "无",
+          "atMs": 20460
+        },
+        {
+          "text": "比",
+          "atMs": 20600
+        },
+        {
+          "text": "的",
+          "atMs": 20820
+        },
+        {
+          "text": "价",
+          "atMs": 20960
+        },
+        {
+          "text": "值",
+          "atMs": 21120
+        },
+        {
+          "text": "排",
+          "atMs": 21280
+        },
+        {
+          "text": "序",
+          "atMs": 21500
+        }
+      ]
+    },
+    {
+      "text": "瞬间被覆盖",
+      "startMs": 21640,
+      "endMs": 22860,
+      "timestampMs": 21760,
+      "confidence": null,
+      "sourceLine": 49,
+      "words": [
+        {
+          "text": "瞬",
+          "atMs": 21760
+        },
+        {
+          "text": "间",
+          "atMs": 22240
+        },
+        {
+          "text": "被",
+          "atMs": 22440
+        },
+        {
+          "text": "覆",
+          "atMs": 22580
+        },
+        {
+          "text": "盖",
+          "atMs": 22800
+        }
+      ]
+    },
+    {
+      "text": "你重新认知到刷抖音更划算",
+      "startMs": 22860,
+      "endMs": 25660,
+      "timestampMs": 22980,
+      "confidence": null,
+      "sourceLine": 50,
+      "words": [
+        {
+          "text": "你",
+          "atMs": 22980
+        },
+        {
+          "text": "重",
+          "atMs": 23420
+        },
+        {
+          "text": "新",
+          "atMs": 23560
+        },
+        {
+          "text": "认",
+          "atMs": 23820
+        },
+        {
+          "text": "知",
+          "atMs": 23980
+        },
+        {
+          "text": "到",
+          "atMs": 24100
+        },
+        {
+          "text": "刷",
+          "atMs": 24280
+        },
+        {
+          "text": "抖",
+          "atMs": 24740
+        },
+        {
+          "text": "音",
+          "atMs": 24920
+        },
+        {
+          "text": "更",
+          "atMs": 25100
+        },
+        {
+          "text": "划",
+          "atMs": 25280
+        },
+        {
+          "text": "算",
+          "atMs": 25560
+        }
+      ]
+    },
+    {
+      "text": "于是，你又拿起了手机",
+      "startMs": 25660,
+      "endMs": 28633,
+      "timestampMs": 25780,
+      "confidence": null,
+      "sourceLine": 51,
+      "words": [
+        {
+          "text": "于",
+          "atMs": 25780
+        },
+        {
+          "text": "是",
+          "atMs": 26520
+        },
+        {
+          "text": "，",
+          "atMs": 26720
+        },
+        {
+          "text": "你",
+          "atMs": 26720
+        },
+        {
+          "text": "又",
+          "atMs": 27220
+        },
+        {
+          "text": "拿",
+          "atMs": 27420
+        },
+        {
+          "text": "起",
+          "atMs": 27620
+        },
+        {
+          "text": "了",
+          "atMs": 27820
+        },
+        {
+          "text": "手",
+          "atMs": 27960
+        },
+        {
+          "text": "机",
+          "atMs": 28060
+        }
+      ]
+    }
+  ]
+}

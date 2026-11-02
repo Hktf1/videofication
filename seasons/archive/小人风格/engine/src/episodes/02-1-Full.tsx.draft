@@ -1,0 +1,175 @@
+import React from "react";
+import { AbsoluteFill } from "remotion";
+import { Subtitle, Stage } from "../kit/Stage";
+import { FigureFullCanvas, type FullSlot } from "../kit/InkFigureFull";
+
+const SCRIPT = `为什么人总是半途而废？
+
+因为人类是一种
+需要希望的生物
+
+一条路逻辑上再正确
+只要它不能即时且适量的
+提供正向反馈
+让人们看到这份希望
+那么再坚实的逻辑
+都形同虚设 | 停留
+
+一条路逻辑上再错误
+只要它能提供
+实实在在正向反馈
+那么它就是正确的 | 停留
+
+【庞氏骗局】
+就诞生于此
+
+手头的事
+只要一刻没有希望
+就一刻也做不下去
+
+只要看到一点负面信息
+或是可能失败的迹象——
+
+焦虑、内耗、怀疑
+一股脑全涌了上来
+
+信心开始动摇
+行为开始犹豫
+动作开始变形 | 停留
+
+每继续向前再多走一步
+都带着难以磨灭的自我怀疑
+
+自我怀疑
+又让前进本身
+附加了额外的痛苦
+
+痛苦会继续加深怀疑
+怀疑又会继续加深痛苦
+
+两者互相强化
+直至痛苦被强化到
+人无法再继续承受的地步
+
+【彻底放弃】 | 停留1.0 重点
+
+等着下次
+再被某个偶然信息
+又重燃了希望
+
+或者，再换一个
+看起来更有希望的事情
+
+然后，继续重演上述的循环
+
+人坚持的，并不是"对的方向" >
+而是"感觉对的方向" | 停留
+
+感觉即情绪
+人非机器，所以情绪必有波动
+情绪波动，就会影响判断
+
+所以人时而极其坚定
+时而犹犹豫豫
+
+要跳出这个循环
+人不能强迫自己不去怀疑 | 停留
+
+因为怀疑是理性
+对不确定性的诚实反应
+无法被消灭 | 停留
+
+强迫自己不去怀疑
+就如假装看不见【房间里的大象】
+一般荒谬`;
+
+// 每屏字符统计
+const SLOTS: FullSlot[] = [
+  { from: 0, frames: 80, chars: [0, 12] },      // 0: 为什么人总是半途而废？
+  { from: 80, frames: 72, chars: [0] },          // 1: [空行]
+  { from: 152, frames: 66, chars: [0, 7] },      // 2: 因为人类是一种
+  { from: 218, frames: 64, chars: [0, 6] },      // 3: 需要希望的生物
+  { from: 282, frames: 72, chars: [0] },         // 4: [空行]
+  { from: 354, frames: 82, chars: [0, 10] },     // 5: 一条路逻辑上再正确
+  { from: 436, frames: 90, chars: [0, 13] },     // 6: 只要它不能即时且适量的
+  { from: 526, frames: 66, chars: [0, 6] },      // 7: 提供正向反馈
+  { from: 592, frames: 80, chars: [0, 10] },     // 8: 让人们看到这份希望
+  { from: 672, frames: 78, chars: [0, 9] },      // 9: 那么再坚实的逻辑
+  { from: 750, frames: 76, chars: [0, 5] },      // 10: 都形同虚设 | 停留
+  { from: 826, frames: 72, chars: [0] },         // 11: [空行]
+  { from: 898, frames: 82, chars: [0, 10] },     // 12: 一条路逻辑上再错误
+  { from: 980, frames: 66, chars: [0, 6] },      // 13: 只要它能提供
+  { from: 1046, frames: 76, chars: [0, 8] },     // 14: 实实在在正向反馈
+  { from: 1122, frames: 82, chars: [0, 10] },    // 15: 那么它就是正确的 | 停留
+  { from: 1204, frames: 72, chars: [0] },        // 16: [空行]
+  { from: 1276, frames: 66, chars: [0, 7] },     // 17: 【庞氏骗局】
+  { from: 1342, frames: 64, chars: [0, 5] },     // 18: 就诞生于此
+  { from: 1406, frames: 72, chars: [0] },        // 19: [空行]
+  { from: 1478, frames: 64, chars: [0, 4] },     // 20: 手头的事
+  { from: 1542, frames: 82, chars: [0, 10] },    // 21: 只要一刻没有希望
+  { from: 1624, frames: 80, chars: [0, 9] },     // 22: 就一刻也做不下去
+  { from: 1704, frames: 72, chars: [0] },        // 23: [空行]
+  { from: 1776, frames: 88, chars: [0, 11] },    // 24: 只要看到一点负面信息
+  { from: 1864, frames: 84, chars: [0, 10] },    // 25: 或是可能失败的迹象——
+  { from: 1948, frames: 72, chars: [0] },        // 26: [空行]
+  { from: 2020, frames: 82, chars: [0, 2, 4, 6, 10] }, // 27: 焦虑、内耗、怀疑
+  { from: 2102, frames: 80, chars: [0, 9] },     // 28: 一股脑全涌了上来
+  { from: 2182, frames: 72, chars: [0] },        // 29: [空行]
+  { from: 2254, frames: 76, chars: [0, 7] },     // 30: 信心开始动摇
+  { from: 2330, frames: 76, chars: [0, 7] },     // 31: 行为开始犹豫
+  { from: 2406, frames: 76, chars: [0, 7] },     // 32: 动作开始变形 | 停留
+  { from: 2482, frames: 72, chars: [0] },        // 33: [空行]
+  { from: 2554, frames: 94, chars: [0, 11] },    // 34: 每继续向前再多走一步
+  { from: 2648, frames: 96, chars: [0, 12] },    // 35: 都带着难以磨灭的自我怀疑
+  { from: 2744, frames: 72, chars: [0] },        // 36: [空行]
+  { from: 2816, frames: 64, chars: [0, 4] },     // 37: 自我怀疑
+  { from: 2880, frames: 76, chars: [0, 7] },     // 38: 又让前进本身
+  { from: 2956, frames: 80, chars: [0, 9] },     // 39: 附加了额外的痛苦
+  { from: 3036, frames: 72, chars: [0] },        // 40: [空行]
+  { from: 3108, frames: 88, chars: [0, 10] },    // 41: 痛苦会继续加深怀疑
+  { from: 3196, frames: 88, chars: [0, 10] },    // 42: 怀疑又会继续加深痛苦
+  { from: 3284, frames: 72, chars: [0] },        // 43: [空行]
+  { from: 3356, frames: 66, chars: [0, 6] },     // 44: 两者互相强化
+  { from: 3422, frames: 88, chars: [0, 10] },    // 45: 直至痛苦被强化到
+  { from: 3510, frames: 94, chars: [0, 11] },    // 46: 人无法再继续承受的地步
+  { from: 3604, frames: 72, chars: [0] },        // 47: [空行]
+  { from: 3676, frames: 82, chars: [0, 6] },     // 48: 【彻底放弃】 | 停留1.0 重点
+  { from: 3758, frames: 72, chars: [0] },        // 49: [空行]
+  { from: 3830, frames: 64, chars: [0, 4] },     // 50: 等着下次
+  { from: 3894, frames: 82, chars: [0, 9] },     // 51: 再被某个偶然信息
+  { from: 3976, frames: 76, chars: [0, 7] },     // 52: 又重燃了希望
+  { from: 4052, frames: 72, chars: [0] },        // 53: [空行]
+  { from: 4124, frames: 80, chars: [0, 9] },     // 54: 或者，再换一个
+  { from: 4204, frames: 90, chars: [0, 11] },    // 55: 看起来更有希望的事情
+  { from: 4294, frames: 72, chars: [0] },        // 56: [空行]
+  { from: 4366, frames: 88, chars: [0, 10] },    // 57: 然后，继续重演上述的循环
+  { from: 4454, frames: 72, chars: [0] },        // 58: [空行]
+  { from: 4526, frames: 110, chars: [0, 13] },   // 59: 人坚持的，并不是"对的方向" >
+  { from: 4636, frames: 84, chars: [0, 9] },     // 60: 而是"感觉对的方向" | 停留
+  { from: 4720, frames: 72, chars: [0] },        // 61: [空行]
+  { from: 4792, frames: 64, chars: [0, 4] },     // 62: 感觉即情绪
+  { from: 4856, frames: 102, chars: [0, 15] },   // 63: 人非机器，所以情绪必有波动
+  { from: 4958, frames: 84, chars: [0, 10] },    // 64: 情绪波动，就会影响判断
+  { from: 5042, frames: 72, chars: [0] },        // 65: [空行]
+  { from: 5114, frames: 80, chars: [0, 9] },     // 66: 所以人时而极其坚定
+  { from: 5194, frames: 76, chars: [0, 7] },     // 67: 时而犹犹豫豫
+  { from: 5270, frames: 72, chars: [0] },        // 68: [空行]
+  { from: 5342, frames: 76, chars: [0, 7] },     // 69: 要跳出这个循环
+  { from: 5418, frames: 94, chars: [0, 12] },    // 70: 人不能强迫自己不去怀疑 | 停留
+  { from: 5512, frames: 72, chars: [0] },        // 71: [空行]
+  { from: 5584, frames: 76, chars: [0, 6] },     // 72: 因为怀疑是理性
+  { from: 5660, frames: 88, chars: [0, 10] },    // 73: 对不确定性的诚实反应
+  { from: 5748, frames: 68, chars: [0, 5] },     // 74: 无法被消灭 | 停留
+  { from: 5816, frames: 72, chars: [0] },        // 75: [空行]
+  { from: 5888, frames: 88, chars: [0, 10] },    // 76: 强迫自己不去怀疑
+  { from: 5976, frames: 112, chars: [0, 15] },   // 77: 就如假装看不见【房间里的大象】
+  { from: 6088, frames: 64, chars: [0, 4] },     // 78: 一般荒谬
+];
+
+export const Episode_02_1_Full: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#F7F4EF" }}>
+    <FigureFullCanvas slots={SLOTS} />
+    <Stage script={SCRIPT} />
+    <Subtitle text="02-1 为什么总是半途而废" />
+  </AbsoluteFill>
+);

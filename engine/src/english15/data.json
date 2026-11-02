@@ -1,0 +1,1758 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "total": 2846,
+  "language": "en-US",
+  "voice": "en-US-GuyNeural",
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Someone else's explanation",
+      "text": "Why can you understand an idea, yet struggle to use it? Often, you haven't really understood it for yourself. Someone else has simply explained it in a way that makes it feel clear.",
+      "anchors": {
+        "而是": 228,
+        "讲懂": 302
+      },
+      "from": 0,
+      "duration": 360,
+      "seconds": 11.976,
+      "src": "english15/1.mp3",
+      "sha256": "b894045bbdb7e0809a36bae5a66d5364670ac59115906a026b70c831b94b6ac0",
+      "words": [
+        {
+          "w": "Why",
+          "s": 0.1,
+          "e": 0.325
+        },
+        {
+          "w": "can",
+          "s": 0.35,
+          "e": 0.5
+        },
+        {
+          "w": "you",
+          "s": 0.525,
+          "e": 0.6375
+        },
+        {
+          "w": "understand",
+          "s": 0.6625,
+          "e": 1.175
+        },
+        {
+          "w": "an",
+          "s": 1.2,
+          "e": 1.2875
+        },
+        {
+          "w": "idea",
+          "s": 1.3125,
+          "e": 1.7125
+        },
+        {
+          "w": "yet",
+          "s": 1.8875,
+          "e": 2.05
+        },
+        {
+          "w": "struggle",
+          "s": 2.0625,
+          "e": 2.4375
+        },
+        {
+          "w": "to",
+          "s": 2.4625,
+          "e": 2.55
+        },
+        {
+          "w": "use",
+          "s": 2.575,
+          "e": 2.8125
+        },
+        {
+          "w": "it",
+          "s": 2.825,
+          "e": 3.0125
+        },
+        {
+          "w": "Often",
+          "s": 3.8875,
+          "e": 4.3125
+        },
+        {
+          "w": "you",
+          "s": 4.525,
+          "e": 4.625
+        },
+        {
+          "w": "haven't",
+          "s": 4.65,
+          "e": 4.95
+        },
+        {
+          "w": "really",
+          "s": 4.975,
+          "e": 5.25
+        },
+        {
+          "w": "understood",
+          "s": 5.275,
+          "e": 5.75
+        },
+        {
+          "w": "it",
+          "s": 5.775,
+          "e": 5.8625
+        },
+        {
+          "w": "for",
+          "s": 5.8875,
+          "e": 6.05
+        },
+        {
+          "w": "yourself",
+          "s": 6.075,
+          "e": 6.725
+        },
+        {
+          "w": "Someone",
+          "s": 7.6,
+          "e": 8.0625
+        },
+        {
+          "w": "else",
+          "s": 8.0875,
+          "e": 8.2875
+        },
+        {
+          "w": "has",
+          "s": 8.3125,
+          "e": 8.4875
+        },
+        {
+          "w": "simply",
+          "s": 8.5125,
+          "e": 8.825
+        },
+        {
+          "w": "explained",
+          "s": 8.85,
+          "e": 9.3125
+        },
+        {
+          "w": "it",
+          "s": 9.325,
+          "e": 9.425
+        },
+        {
+          "w": "in",
+          "s": 9.45,
+          "e": 9.55
+        },
+        {
+          "w": "a",
+          "s": 9.575,
+          "e": 9.6375
+        },
+        {
+          "w": "way",
+          "s": 9.6625,
+          "e": 9.85
+        },
+        {
+          "w": "that",
+          "s": 9.875,
+          "e": 10.025
+        },
+        {
+          "w": "makes",
+          "s": 10.05,
+          "e": 10.2625
+        },
+        {
+          "w": "it",
+          "s": 10.2875,
+          "e": 10.375
+        },
+        {
+          "w": "feel",
+          "s": 10.4,
+          "e": 10.65
+        },
+        {
+          "w": "clear",
+          "s": 10.6625,
+          "e": 11.0875
+        }
+      ],
+      "captions": [
+        {
+          "text": "Why can you understand an idea,",
+          "lines": [
+            "Why can you understand an idea,"
+          ],
+          "startMs": 100,
+          "endMs": 1888,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "yet struggle to use it?",
+          "lines": [
+            "yet struggle to use it?"
+          ],
+          "startMs": 1888,
+          "endMs": 3193,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Often, you haven't really understood it for yourself.",
+          "lines": [
+            "Often, you haven't really",
+            "understood it for yourself."
+          ],
+          "startMs": 3888,
+          "endMs": 6905,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Someone else has simply explained it in a way that makes it feel clear.",
+          "lines": [
+            "Someone else has simply explained",
+            "it in a way that makes it feel clear."
+          ],
+          "startMs": 7600,
+          "endMs": 11268,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Three signs of an illusion",
+      "text": "While you're learning something, you may feel you understand it completely. But when you face a real problem, one of three things happens. You draw a blank. You don't even realize that something you've learned could help, as if you'd never learned it at all. Or you stumble through a few vague keywords, perhaps remembering them incorrectly. Or you sound perfectly convincing, offering one solution after another, while the problem remains completely unchanged. This is the illusion of understanding, a common experience in learning.",
+      "anchors": {
+        "遇到具体问题": 140,
+        "一脸茫然": 255,
+        "磕磕绊绊": 475,
+        "头头是道": 625,
+        "这就是在学习过程中": 841
+      },
+      "from": 360,
+      "duration": 984,
+      "seconds": 32.784,
+      "src": "english15/2.mp3",
+      "sha256": "d54d87f3d4b4123a26e7e93073bab1eea74a9fd09f2ac6c3cf5c481df854ea84",
+      "words": [
+        {
+          "w": "While",
+          "s": 0.1,
+          "e": 0.3375
+        },
+        {
+          "w": "you're",
+          "s": 0.3625,
+          "e": 0.5125
+        },
+        {
+          "w": "learning",
+          "s": 0.5375,
+          "e": 0.85
+        },
+        {
+          "w": "something",
+          "s": 0.875,
+          "e": 1.25
+        },
+        {
+          "w": "you",
+          "s": 1.4875,
+          "e": 1.575
+        },
+        {
+          "w": "may",
+          "s": 1.5875,
+          "e": 1.75
+        },
+        {
+          "w": "feel",
+          "s": 1.775,
+          "e": 2.0625
+        },
+        {
+          "w": "you",
+          "s": 2.075,
+          "e": 2.2375
+        },
+        {
+          "w": "understand",
+          "s": 2.25,
+          "e": 2.8125
+        },
+        {
+          "w": "it",
+          "s": 2.8375,
+          "e": 2.9125
+        },
+        {
+          "w": "completely",
+          "s": 2.9375,
+          "e": 3.6
+        },
+        {
+          "w": "But",
+          "s": 4.4875,
+          "e": 4.65
+        },
+        {
+          "w": "when",
+          "s": 4.675,
+          "e": 4.8375
+        },
+        {
+          "w": "you",
+          "s": 4.85,
+          "e": 4.9625
+        },
+        {
+          "w": "face",
+          "s": 4.9875,
+          "e": 5.2125
+        },
+        {
+          "w": "a",
+          "s": 5.2375,
+          "e": 5.3
+        },
+        {
+          "w": "real",
+          "s": 5.325,
+          "e": 5.6
+        },
+        {
+          "w": "problem",
+          "s": 5.6125,
+          "e": 6.0125
+        },
+        {
+          "w": "one",
+          "s": 6.2125,
+          "e": 6.35
+        },
+        {
+          "w": "of",
+          "s": 6.3625,
+          "e": 6.45
+        },
+        {
+          "w": "three",
+          "s": 6.475,
+          "e": 6.7125
+        },
+        {
+          "w": "things",
+          "s": 6.7375,
+          "e": 7.025
+        },
+        {
+          "w": "happens",
+          "s": 7.05,
+          "e": 7.6125
+        },
+        {
+          "w": "You",
+          "s": 8.4875,
+          "e": 8.7
+        },
+        {
+          "w": "draw",
+          "s": 8.725,
+          "e": 9.025
+        },
+        {
+          "w": "a",
+          "s": 9.0375,
+          "e": 9.1125
+        },
+        {
+          "w": "blank",
+          "s": 9.125,
+          "e": 9.6
+        },
+        {
+          "w": "You",
+          "s": 10.4625,
+          "e": 10.625
+        },
+        {
+          "w": "don't",
+          "s": 10.65,
+          "e": 10.8375
+        },
+        {
+          "w": "even",
+          "s": 10.8625,
+          "e": 11.1125
+        },
+        {
+          "w": "realize",
+          "s": 11.1375,
+          "e": 11.6125
+        },
+        {
+          "w": "that",
+          "s": 11.6375,
+          "e": 11.775
+        },
+        {
+          "w": "something",
+          "s": 11.8,
+          "e": 12.15
+        },
+        {
+          "w": "you've",
+          "s": 12.175,
+          "e": 12.3375
+        },
+        {
+          "w": "learned",
+          "s": 12.3625,
+          "e": 12.625
+        },
+        {
+          "w": "could",
+          "s": 12.65,
+          "e": 12.7875
+        },
+        {
+          "w": "help",
+          "s": 12.8125,
+          "e": 13.0875
+        },
+        {
+          "w": "as",
+          "s": 13.3375,
+          "e": 13.4625
+        },
+        {
+          "w": "if",
+          "s": 13.4875,
+          "e": 13.6
+        },
+        {
+          "w": "you'd",
+          "s": 13.6125,
+          "e": 13.7875
+        },
+        {
+          "w": "never",
+          "s": 13.8125,
+          "e": 14.075
+        },
+        {
+          "w": "learned",
+          "s": 14.1,
+          "e": 14.35
+        },
+        {
+          "w": "it",
+          "s": 14.375,
+          "e": 14.45
+        },
+        {
+          "w": "at",
+          "s": 14.475,
+          "e": 14.5625
+        },
+        {
+          "w": "all",
+          "s": 14.5875,
+          "e": 14.95
+        },
+        {
+          "w": "Or",
+          "s": 15.8375,
+          "e": 16.0375
+        },
+        {
+          "w": "you",
+          "s": 16.0625,
+          "e": 16.15
+        },
+        {
+          "w": "stumble",
+          "s": 16.175,
+          "e": 16.5625
+        },
+        {
+          "w": "through",
+          "s": 16.5875,
+          "e": 16.7875
+        },
+        {
+          "w": "a",
+          "s": 16.8125,
+          "e": 16.875
+        },
+        {
+          "w": "few",
+          "s": 16.9,
+          "e": 17.1
+        },
+        {
+          "w": "vague",
+          "s": 17.125,
+          "e": 17.375
+        },
+        {
+          "w": "keywords",
+          "s": 17.4,
+          "e": 17.925
+        },
+        {
+          "w": "perhaps",
+          "s": 18.125,
+          "e": 18.5125
+        },
+        {
+          "w": "remembering",
+          "s": 18.525,
+          "e": 19.0375
+        },
+        {
+          "w": "them",
+          "s": 19.0625,
+          "e": 19.225
+        },
+        {
+          "w": "incorrectly",
+          "s": 19.2375,
+          "e": 19.9625
+        },
+        {
+          "w": "Or",
+          "s": 20.8375,
+          "e": 21.025
+        },
+        {
+          "w": "you",
+          "s": 21.05,
+          "e": 21.15
+        },
+        {
+          "w": "sound",
+          "s": 21.175,
+          "e": 21.5
+        },
+        {
+          "w": "perfectly",
+          "s": 21.5125,
+          "e": 22.0375
+        },
+        {
+          "w": "convincing",
+          "s": 22.0625,
+          "e": 22.65
+        },
+        {
+          "w": "offering",
+          "s": 22.925,
+          "e": 23.3375
+        },
+        {
+          "w": "one",
+          "s": 23.35,
+          "e": 23.5375
+        },
+        {
+          "w": "solution",
+          "s": 23.5625,
+          "e": 24
+        },
+        {
+          "w": "after",
+          "s": 24.025,
+          "e": 24.3
+        },
+        {
+          "w": "another",
+          "s": 24.325,
+          "e": 24.6625
+        },
+        {
+          "w": "while",
+          "s": 24.9,
+          "e": 25.0375
+        },
+        {
+          "w": "the",
+          "s": 25.05,
+          "e": 25.1625
+        },
+        {
+          "w": "problem",
+          "s": 25.1875,
+          "e": 25.5625
+        },
+        {
+          "w": "remains",
+          "s": 25.575,
+          "e": 25.9625
+        },
+        {
+          "w": "completely",
+          "s": 25.975,
+          "e": 26.5
+        },
+        {
+          "w": "unchanged",
+          "s": 26.525,
+          "e": 27.1625
+        },
+        {
+          "w": "This",
+          "s": 28.0375,
+          "e": 28.2875
+        },
+        {
+          "w": "is",
+          "s": 28.3125,
+          "e": 28.4375
+        },
+        {
+          "w": "the",
+          "s": 28.4625,
+          "e": 28.55
+        },
+        {
+          "w": "illusion",
+          "s": 28.575,
+          "e": 29.05
+        },
+        {
+          "w": "of",
+          "s": 29.075,
+          "e": 29.175
+        },
+        {
+          "w": "understanding",
+          "s": 29.2,
+          "e": 29.9125
+        },
+        {
+          "w": "a",
+          "s": 30.2,
+          "e": 30.2625
+        },
+        {
+          "w": "common",
+          "s": 30.2875,
+          "e": 30.6375
+        },
+        {
+          "w": "experience",
+          "s": 30.6625,
+          "e": 31.325
+        },
+        {
+          "w": "in",
+          "s": 31.3375,
+          "e": 31.45
+        },
+        {
+          "w": "learning",
+          "s": 31.475,
+          "e": 31.8875
+        }
+      ],
+      "captions": [
+        {
+          "text": "While you're learning something, you may feel you understand it completely.",
+          "lines": [
+            "While you're learning something, you may",
+            "feel you understand it completely."
+          ],
+          "startMs": 100,
+          "endMs": 3780,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "But when you face a real problem,",
+          "lines": [
+            "But when you face a real problem,"
+          ],
+          "startMs": 4488,
+          "endMs": 6193,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "one of three things happens.",
+          "lines": [
+            "one of three things happens."
+          ],
+          "startMs": 6213,
+          "endMs": 7793,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "You draw a blank.",
+          "lines": [
+            "You draw a blank."
+          ],
+          "startMs": 8488,
+          "endMs": 9780,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "You don't even realize that something you've learned could help,",
+          "lines": [
+            "You don't even realize that",
+            "something you've learned could help,"
+          ],
+          "startMs": 10463,
+          "endMs": 13268,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "as if you'd never learned it at all.",
+          "lines": [
+            "as if you'd never learned it at all."
+          ],
+          "startMs": 13338,
+          "endMs": 15130,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Or you stumble through a few vague keywords,",
+          "lines": [
+            "Or you stumble through a few vague keywords,"
+          ],
+          "startMs": 15838,
+          "endMs": 18105,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "perhaps remembering them incorrectly.",
+          "lines": [
+            "perhaps remembering them incorrectly."
+          ],
+          "startMs": 18125,
+          "endMs": 20143,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Or you sound perfectly convincing,",
+          "lines": [
+            "Or you sound perfectly convincing,"
+          ],
+          "startMs": 20838,
+          "endMs": 22830,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "offering one solution after another,",
+          "lines": [
+            "offering one solution after another,"
+          ],
+          "startMs": 22925,
+          "endMs": 24843,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "while the problem remains completely unchanged.",
+          "lines": [
+            "while the problem remains",
+            "completely unchanged."
+          ],
+          "startMs": 24900,
+          "endMs": 27343,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "This is the illusion of understanding,",
+          "lines": [
+            "This is the illusion of understanding,"
+          ],
+          "startMs": 28038,
+          "endMs": 30093,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "a common experience in learning.",
+          "lines": [
+            "a common experience in learning."
+          ],
+          "startMs": 30200,
+          "endMs": 32068,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Borrowing the author's structure",
+      "text": "When you learn by reading a textbook or watching a tutorial, you're actually borrowing the author's structure of knowledge to make sense of the subject.",
+      "anchors": {
+        "借用作者的知识结构": 113,
+        "借用": 113
+      },
+      "captions": [
+        {
+          "text": "When you learn by reading a textbook or watching a tutorial,",
+          "lines": [
+            "When you learn by reading",
+            "a textbook or watching a tutorial,"
+          ],
+          "startMs": 100,
+          "endMs": 3105,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "you're actually borrowing the author's structure of knowledge",
+          "lines": [
+            "you're actually borrowing",
+            "the author's structure of knowledge"
+          ],
+          "startMs": 3175,
+          "endMs": 5700,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "to make sense of the subject.",
+          "lines": [
+            "to make sense of the subject."
+          ],
+          "startMs": 5700,
+          "endMs": 7205,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "from": 1344,
+      "duration": 238,
+      "seconds": 7.92,
+      "src": "english15/3.mp3",
+      "sha256": "2b7466c59e3630d98219ac1a4a7a7c3ebf3d8376c65c21177bf4b6d3d60c3eb7",
+      "words": [
+        {
+          "w": "When",
+          "s": 0.1,
+          "e": 0.2625
+        },
+        {
+          "w": "you",
+          "s": 0.275,
+          "e": 0.3875
+        },
+        {
+          "w": "learn",
+          "s": 0.4125,
+          "e": 0.6
+        },
+        {
+          "w": "by",
+          "s": 0.6125,
+          "e": 0.75
+        },
+        {
+          "w": "reading",
+          "s": 0.775,
+          "e": 1.1375
+        },
+        {
+          "w": "a",
+          "s": 1.1625,
+          "e": 1.225
+        },
+        {
+          "w": "textbook",
+          "s": 1.2375,
+          "e": 1.7625
+        },
+        {
+          "w": "or",
+          "s": 1.7875,
+          "e": 1.9
+        },
+        {
+          "w": "watching",
+          "s": 1.925,
+          "e": 2.2875
+        },
+        {
+          "w": "a",
+          "s": 2.3125,
+          "e": 2.3625
+        },
+        {
+          "w": "tutorial",
+          "s": 2.375,
+          "e": 2.925
+        },
+        {
+          "w": "you're",
+          "s": 3.175,
+          "e": 3.3375
+        },
+        {
+          "w": "actually",
+          "s": 3.35,
+          "e": 3.725
+        },
+        {
+          "w": "borrowing",
+          "s": 3.75,
+          "e": 4.175
+        },
+        {
+          "w": "the",
+          "s": 4.2,
+          "e": 4.3125
+        },
+        {
+          "w": "author's",
+          "s": 4.325,
+          "e": 4.7125
+        },
+        {
+          "w": "structure",
+          "s": 4.725,
+          "e": 5.175
+        },
+        {
+          "w": "of",
+          "s": 5.1875,
+          "e": 5.275
+        },
+        {
+          "w": "knowledge",
+          "s": 5.3,
+          "e": 5.6875
+        },
+        {
+          "w": "to",
+          "s": 5.7,
+          "e": 5.7875
+        },
+        {
+          "w": "make",
+          "s": 5.8125,
+          "e": 5.975
+        },
+        {
+          "w": "sense",
+          "s": 6,
+          "e": 6.2625
+        },
+        {
+          "w": "of",
+          "s": 6.275,
+          "e": 6.3375
+        },
+        {
+          "w": "the",
+          "s": 6.3625,
+          "e": 6.45
+        },
+        {
+          "w": "subject",
+          "s": 6.475,
+          "e": 7.025
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The work the author has already done",
+      "text": "The author already understands the subject deeply. They know what matters, what can be left out, what must stay, and why. They know what to explain first, and what should come next. So the information you receive is clearly expressed, with well-chosen examples, tightly connected reasoning, and language that's easy to follow.",
+      "anchors": {
+        "可以省略": 145,
+        "先讲什么": 263,
+        "例子合适": 453,
+        "逻辑紧密": 491
+      },
+      "from": 1582,
+      "duration": 605,
+      "seconds": 20.16,
+      "src": "english15/4.mp3",
+      "sha256": "2354f3435d41288c2c0aa355e6732b772590d83ef7d2585873cbe806e10bd097",
+      "words": [
+        {
+          "w": "The",
+          "s": 0.1,
+          "e": 0.25
+        },
+        {
+          "w": "author",
+          "s": 0.2625,
+          "e": 0.6125
+        },
+        {
+          "w": "already",
+          "s": 0.6375,
+          "e": 1.0625
+        },
+        {
+          "w": "understands",
+          "s": 1.0875,
+          "e": 1.6875
+        },
+        {
+          "w": "the",
+          "s": 1.7125,
+          "e": 1.825
+        },
+        {
+          "w": "subject",
+          "s": 1.85,
+          "e": 2.325
+        },
+        {
+          "w": "deeply",
+          "s": 2.3375,
+          "e": 2.8
+        },
+        {
+          "w": "They",
+          "s": 3.6875,
+          "e": 3.85
+        },
+        {
+          "w": "know",
+          "s": 3.875,
+          "e": 4.0125
+        },
+        {
+          "w": "what",
+          "s": 4.0375,
+          "e": 4.2125
+        },
+        {
+          "w": "matters",
+          "s": 4.2375,
+          "e": 4.6625
+        },
+        {
+          "w": "what",
+          "s": 4.825,
+          "e": 4.975
+        },
+        {
+          "w": "can",
+          "s": 5,
+          "e": 5.125
+        },
+        {
+          "w": "be",
+          "s": 5.1375,
+          "e": 5.2375
+        },
+        {
+          "w": "left",
+          "s": 5.2625,
+          "e": 5.5375
+        },
+        {
+          "w": "out",
+          "s": 5.55,
+          "e": 5.775
+        },
+        {
+          "w": "what",
+          "s": 6,
+          "e": 6.1625
+        },
+        {
+          "w": "must",
+          "s": 6.1875,
+          "e": 6.4
+        },
+        {
+          "w": "stay",
+          "s": 6.425,
+          "e": 6.7375
+        },
+        {
+          "w": "and",
+          "s": 6.9625,
+          "e": 7.1125
+        },
+        {
+          "w": "why",
+          "s": 7.1375,
+          "e": 7.5
+        },
+        {
+          "w": "They",
+          "s": 8.3875,
+          "e": 8.5625
+        },
+        {
+          "w": "know",
+          "s": 8.5875,
+          "e": 8.75
+        },
+        {
+          "w": "what",
+          "s": 8.775,
+          "e": 8.95
+        },
+        {
+          "w": "to",
+          "s": 8.975,
+          "e": 9.0875
+        },
+        {
+          "w": "explain",
+          "s": 9.1,
+          "e": 9.5375
+        },
+        {
+          "w": "first",
+          "s": 9.5625,
+          "e": 9.9375
+        },
+        {
+          "w": "and",
+          "s": 10.125,
+          "e": 10.2375
+        },
+        {
+          "w": "what",
+          "s": 10.2625,
+          "e": 10.425
+        },
+        {
+          "w": "should",
+          "s": 10.45,
+          "e": 10.6125
+        },
+        {
+          "w": "come",
+          "s": 10.6375,
+          "e": 10.825
+        },
+        {
+          "w": "next",
+          "s": 10.85,
+          "e": 11.275
+        },
+        {
+          "w": "So",
+          "s": 12.1625,
+          "e": 12.3625
+        },
+        {
+          "w": "the",
+          "s": 12.3875,
+          "e": 12.475
+        },
+        {
+          "w": "information",
+          "s": 12.5,
+          "e": 13.075
+        },
+        {
+          "w": "you",
+          "s": 13.1,
+          "e": 13.2125
+        },
+        {
+          "w": "receive",
+          "s": 13.225,
+          "e": 13.625
+        },
+        {
+          "w": "is",
+          "s": 13.65,
+          "e": 13.775
+        },
+        {
+          "w": "clearly",
+          "s": 13.7875,
+          "e": 14.15
+        },
+        {
+          "w": "expressed",
+          "s": 14.175,
+          "e": 14.725
+        },
+        {
+          "w": "with",
+          "s": 14.9375,
+          "e": 15.075
+        },
+        {
+          "w": "well-chosen",
+          "s": 15.1,
+          "e": 15.625
+        },
+        {
+          "w": "examples",
+          "s": 15.65,
+          "e": 16.1875
+        },
+        {
+          "w": "tightly",
+          "s": 16.375,
+          "e": 16.6875
+        },
+        {
+          "w": "connected",
+          "s": 16.7,
+          "e": 17.125
+        },
+        {
+          "w": "reasoning",
+          "s": 17.15,
+          "e": 17.55
+        },
+        {
+          "w": "and",
+          "s": 17.7375,
+          "e": 17.85
+        },
+        {
+          "w": "language",
+          "s": 17.875,
+          "e": 18.2625
+        },
+        {
+          "w": "that's",
+          "s": 18.2875,
+          "e": 18.5
+        },
+        {
+          "w": "easy",
+          "s": 18.525,
+          "e": 18.7375
+        },
+        {
+          "w": "to",
+          "s": 18.7625,
+          "e": 18.8375
+        },
+        {
+          "w": "follow",
+          "s": 18.85,
+          "e": 19.2625
+        }
+      ],
+      "captions": [
+        {
+          "text": "The author already understands the subject deeply.",
+          "lines": [
+            "The author already understands",
+            "the subject deeply."
+          ],
+          "startMs": 100,
+          "endMs": 2980,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "They know what matters, what can be left out,",
+          "lines": [
+            "They know what matters, what can be left out,"
+          ],
+          "startMs": 3688,
+          "endMs": 5955,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "what must stay, and why.",
+          "lines": [
+            "what must stay, and why."
+          ],
+          "startMs": 6000,
+          "endMs": 7680,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "They know what to explain first,",
+          "lines": [
+            "They know what to explain first,"
+          ],
+          "startMs": 8388,
+          "endMs": 10118,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "and what should come next.",
+          "lines": [
+            "and what should come next."
+          ],
+          "startMs": 10125,
+          "endMs": 11455,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "So the information you receive is clearly expressed,",
+          "lines": [
+            "So the information you receive",
+            "is clearly expressed,"
+          ],
+          "startMs": 12163,
+          "endMs": 14905,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "with well-chosen examples, tightly connected reasoning,",
+          "lines": [
+            "with well-chosen examples,",
+            "tightly connected reasoning,"
+          ],
+          "startMs": 14938,
+          "endMs": 17730,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "and language that's easy to follow.",
+          "lines": [
+            "and language that's easy to follow."
+          ],
+          "startMs": 17738,
+          "endMs": 19443,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mistaking fluency for understanding",
+      "text": "That makes reading feel effortless. But it feels effortless because the author has worked hard to explain things in the easiest possible way for you to understand. Your brain has an instinctive shortcut: if something is easy to process, I probably understand it already. So when the reading flows smoothly, your brain reaches the wrong conclusion: I understand this now.",
+      "anchors": {
+        "顺畅": 21,
+        "本能机制": 312,
+        "误判": 561
+      },
+      "captions": [
+        {
+          "text": "That makes reading feel effortless.",
+          "lines": [
+            "That makes reading feel effortless."
+          ],
+          "startMs": 100,
+          "endMs": 2205,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "But it feels effortless because the author has worked hard",
+          "lines": [
+            "But it feels effortless because",
+            "the author has worked hard"
+          ],
+          "startMs": 2888,
+          "endMs": 5438,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "to explain things in the easiest possible way for you to understand.",
+          "lines": [
+            "to explain things in the easiest",
+            "possible way for you to understand."
+          ],
+          "startMs": 5438,
+          "endMs": 8943,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Your brain has an instinctive shortcut:",
+          "lines": [
+            "Your brain has an instinctive shortcut:"
+          ],
+          "startMs": 9638,
+          "endMs": 11693,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "if something is easy to process,",
+          "lines": [
+            "if something is easy to process,"
+          ],
+          "startMs": 11738,
+          "endMs": 13430,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "I probably understand it already.",
+          "lines": [
+            "I probably understand it already."
+          ],
+          "startMs": 13475,
+          "endMs": 15405,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "So when the reading flows smoothly,",
+          "lines": [
+            "So when the reading flows smoothly,"
+          ],
+          "startMs": 16113,
+          "endMs": 17830,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "your brain reaches the wrong conclusion:",
+          "lines": [
+            "your brain reaches the wrong conclusion:"
+          ],
+          "startMs": 17875,
+          "endMs": 19830,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "I understand this now.",
+          "lines": [
+            "I understand this now."
+          ],
+          "startMs": 19900,
+          "endMs": 21243,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "from": 2187,
+      "duration": 659,
+      "seconds": 21.96,
+      "src": "english15/5.mp3",
+      "sha256": "4558b7da9634dde91b04922fefccd1fbf85024f923bd1a05629f71f3db747140",
+      "words": [
+        {
+          "w": "That",
+          "s": 0.1,
+          "e": 0.3875
+        },
+        {
+          "w": "makes",
+          "s": 0.4125,
+          "e": 0.675
+        },
+        {
+          "w": "reading",
+          "s": 0.7,
+          "e": 1.0875
+        },
+        {
+          "w": "feel",
+          "s": 1.1,
+          "e": 1.425
+        },
+        {
+          "w": "effortless",
+          "s": 1.4375,
+          "e": 2.025
+        },
+        {
+          "w": "But",
+          "s": 2.8875,
+          "e": 3.0125
+        },
+        {
+          "w": "it",
+          "s": 3.025,
+          "e": 3.1
+        },
+        {
+          "w": "feels",
+          "s": 3.125,
+          "e": 3.4375
+        },
+        {
+          "w": "effortless",
+          "s": 3.45,
+          "e": 3.925
+        },
+        {
+          "w": "because",
+          "s": 3.95,
+          "e": 4.2625
+        },
+        {
+          "w": "the",
+          "s": 4.2875,
+          "e": 4.3875
+        },
+        {
+          "w": "author",
+          "s": 4.4,
+          "e": 4.725
+        },
+        {
+          "w": "has",
+          "s": 4.75,
+          "e": 4.9
+        },
+        {
+          "w": "worked",
+          "s": 4.925,
+          "e": 5.175
+        },
+        {
+          "w": "hard",
+          "s": 5.2,
+          "e": 5.425
+        },
+        {
+          "w": "to",
+          "s": 5.4375,
+          "e": 5.5375
+        },
+        {
+          "w": "explain",
+          "s": 5.55,
+          "e": 5.95
+        },
+        {
+          "w": "things",
+          "s": 5.975,
+          "e": 6.275
+        },
+        {
+          "w": "in",
+          "s": 6.2875,
+          "e": 6.3625
+        },
+        {
+          "w": "the",
+          "s": 6.3875,
+          "e": 6.4875
+        },
+        {
+          "w": "easiest",
+          "s": 6.5125,
+          "e": 6.975
+        },
+        {
+          "w": "possible",
+          "s": 6.9875,
+          "e": 7.4375
+        },
+        {
+          "w": "way",
+          "s": 7.4625,
+          "e": 7.625
+        },
+        {
+          "w": "for",
+          "s": 7.6375,
+          "e": 7.775
+        },
+        {
+          "w": "you",
+          "s": 7.8,
+          "e": 7.9125
+        },
+        {
+          "w": "to",
+          "s": 7.9375,
+          "e": 8.05
+        },
+        {
+          "w": "understand",
+          "s": 8.075,
+          "e": 8.7625
+        },
+        {
+          "w": "Your",
+          "s": 9.6375,
+          "e": 9.85
+        },
+        {
+          "w": "brain",
+          "s": 9.875,
+          "e": 10.1625
+        },
+        {
+          "w": "has",
+          "s": 10.1875,
+          "e": 10.3625
+        },
+        {
+          "w": "an",
+          "s": 10.3875,
+          "e": 10.475
+        },
+        {
+          "w": "instinctive",
+          "s": 10.4875,
+          "e": 11.0125
+        },
+        {
+          "w": "shortcut",
+          "s": 11.0375,
+          "e": 11.5125
+        },
+        {
+          "w": "if",
+          "s": 11.7375,
+          "e": 11.8375
+        },
+        {
+          "w": "something",
+          "s": 11.8625,
+          "e": 12.2
+        },
+        {
+          "w": "is",
+          "s": 12.2125,
+          "e": 12.3375
+        },
+        {
+          "w": "easy",
+          "s": 12.3625,
+          "e": 12.6
+        },
+        {
+          "w": "to",
+          "s": 12.625,
+          "e": 12.7
+        },
+        {
+          "w": "process",
+          "s": 12.7125,
+          "e": 13.25
+        },
+        {
+          "w": "I",
+          "s": 13.475,
+          "e": 13.525
+        },
+        {
+          "w": "probably",
+          "s": 13.55,
+          "e": 14.05
+        },
+        {
+          "w": "understand",
+          "s": 14.075,
+          "e": 14.575
+        },
+        {
+          "w": "it",
+          "s": 14.5875,
+          "e": 14.6625
+        },
+        {
+          "w": "already",
+          "s": 14.6875,
+          "e": 15.225
+        },
+        {
+          "w": "So",
+          "s": 16.1125,
+          "e": 16.3
+        },
+        {
+          "w": "when",
+          "s": 16.325,
+          "e": 16.45
+        },
+        {
+          "w": "the",
+          "s": 16.475,
+          "e": 16.575
+        },
+        {
+          "w": "reading",
+          "s": 16.6,
+          "e": 16.8875
+        },
+        {
+          "w": "flows",
+          "s": 16.9125,
+          "e": 17.1875
+        },
+        {
+          "w": "smoothly",
+          "s": 17.2,
+          "e": 17.65
+        },
+        {
+          "w": "your",
+          "s": 17.875,
+          "e": 18.025
+        },
+        {
+          "w": "brain",
+          "s": 18.05,
+          "e": 18.35
+        },
+        {
+          "w": "reaches",
+          "s": 18.375,
+          "e": 18.6875
+        },
+        {
+          "w": "the",
+          "s": 18.7125,
+          "e": 18.825
+        },
+        {
+          "w": "wrong",
+          "s": 18.85,
+          "e": 19.075
+        },
+        {
+          "w": "conclusion",
+          "s": 19.1,
+          "e": 19.65
+        },
+        {
+          "w": "I",
+          "s": 19.9,
+          "e": 19.9875
+        },
+        {
+          "w": "understand",
+          "s": 20.0125,
+          "e": 20.5125
+        },
+        {
+          "w": "this",
+          "s": 20.525,
+          "e": 20.675
+        },
+        {
+          "w": "now",
+          "s": 20.6875,
+          "e": 21.0625
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+import React from 'react';
+import {useCurrentFrame, useVideoConfig} from 'remotion';
+import {sceneCtx, type SceneProps} from '../../script/scene';
+import {P, Box, Dot, Txt, easeOut, lerp} from '../../kit/sceneKit';
+import {MOTION, MOTION_FONT} from '../../style/motion';
+
+const C = MOTION;
+export const Scene: React.FC<SceneProps> = ({cues}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const ctx = sceneCtx(cues, frame);
+  const duration = Math.round(.7 * fps);
+  const sync = easeOut(ctx.p('同步','连接',duration));
+  const clear = easeOut(ctx.p('收益','看清',duration));
+  const blur = easeOut(ctx.p('收益','模糊',duration));
+  const study = easeOut(ctx.p('排序','学习',duration));
+  const phone = easeOut(ctx.p('排序','覆盖',duration));
+  const scatter = easeOut(ctx.p('扎根','散开',duration));
+  const anchor = easeOut(ctx.p('扎根','锚定',duration));
+  const action = easeOut(ctx.p('看见','行动',duration));
+  const research = easeOut(ctx.p('主动','研究',duration));
+  const forced = easeOut(ctx.p('主动','被迫',duration));
+  const cost = easeOut(ctx.p('主动','代价',duration));
+  const end = easeOut(ctx.p('结论','同步',duration));
+  const sections = [
+    ['同步',ctx.at('同步','入场')], ['收益',ctx.at('收益','分路')],
+    ['排序',ctx.at('排序','建立')], ['扎根',ctx.at('扎根','对照')],
+    ['看见',ctx.at('看见','分路')], ['主动',ctx.at('主动','研究')],
+    ['结论',ctx.at('结论','同步')],
+  ] as const;
+  const active = [...sections].reverse().find(([,at])=>frame>=at) ?? sections[0];
+  const incoming = active[0] === '同步' ? 1 : ctx.grow(active[1], Math.round(.3*fps));
+  const fork = (progress:number, opacity=1) => <g opacity={opacity}>
+    <Dot cx={520} cy={470} r={9} fill={C.text}/>
+    <P d="M 532 470 L 820 470 L 1030 320 L 1320 320" color={C.amber} w={3} p={.2+.8*progress}/>
+    <P d="M 820 470 L 1030 620 L 1320 620" color={C.red} w={3} p={.2+.8*progress}/>
+    <Txt x={1030} y={270} color={C.muted}>做</Txt><Txt x={1030} y={674} color={C.muted}>不做</Txt>
+    <Box x={1320} y={275} w={220} h={90} stroke={C.amber} dash={blur>.5 && active[0]==='收益'?'9 8':undefined}/>
+    <Box x={1320} y={575} w={220} h={90} stroke={C.red} dash={blur>.5 && active[0]==='收益'?'9 8':undefined}/>
+    <Txt x={1430} y={320} anchor="middle" color={C.amber}>收益</Txt>
+    <Txt x={1430} y={620} anchor="middle" color={C.red}>亏损</Txt>
+  </g>;
+  return <svg width={1920} height={900} viewBox="0 0 1920 900" style={{position:'absolute',left:0,top:0,fontFamily:MOTION_FONT.sans}}>
+    <g opacity={incoming}>
+    {(active[0]==='同步'||active[0]==='结论') && <g>
+      <Box x={430} y={340} w={360} h={240} stroke={C.line}/>
+      <Box x={1130} y={340} w={360} h={240} stroke={C.line}/>
+      <Txt x={610} y={294} anchor="middle" size={32}>认知</Txt>
+      <Txt x={1310} y={294} anchor="middle" size={32}>行动</Txt>
+      <P d="M 790 460 L 1130 460" color={C.amber} w={3} p={active[0]==='结论'?1:sync}/>
+      {[500,1200].map(x=><Box key={x} x={x} y={530-140*(active[0]==='结论'?end:sync)} w={220} h={4+140*(active[0]==='结论'?end:sync)} fill={C.amber}/>)}
+      <Dot cx={960} cy={460} r={6} fill={C.amber} opacity={active[0]==='结论'?1:sync}/>
+    </g>}
+    {active[0]==='收益' && fork(clear,1-.55*blur)}
+    {active[0]==='排序' && <g>
+      <Txt x={400} y={295} size={26} color={C.muted}>当下认知到的价值</Txt>
+      <Txt x={400} y={408} size={30}>学习</Txt><Txt x={400} y={608} size={30}>刷抖音</Txt>
+      <P d="M 620 430 L 1490 430 M 620 630 L 1490 630" color={C.line}/>
+      <Box x={620} y={390} w={lerp(400,680,study)-phone*420} h={40} fill={C.amber}/>
+      <Box x={620} y={590} w={lerp(380,250,study)+phone*450} h={40} fill={C.muted}/>
+      <Dot cx={1550} cy={lerp(410,610,phone)} r={11} fill={C.amber}/>
+      <Txt x={1550} y={730} anchor="middle" color={C.muted}>行动</Txt>
+    </g>}
+    {active[0]==='扎根' && <g>
+      <Txt x={590} y={245} anchor="middle" size={30}>感性印象</Txt>
+      <Txt x={1320} y={245} anchor="middle" size={30}>理性认知</Txt>
+      <P d="M 310 410 L 830 410 M 1060 410 L 1580 410" color={C.line}/>
+      {[[-110,28],[0,40],[120,23]].map(([x,r],i)=><Dot key={i} cx={590+x+scatter*(110+i*40)} cy={380-scatter*(90+i*20)} r={r} stroke={C.muted} sw={2} opacity={1-scatter}/>)}
+      <P d={`M 1320 330 L 1320 ${420+anchor*200}`} color={C.amber} w={3}/>
+      <g opacity={anchor}>
+        <Dot cx={1320} cy={330} r={18} stroke={C.amber} sw={3}/>
+        <P d="M 1210 570 L 1235 630 Q 1320 720 1405 630 L 1430 570 M 1280 490 L 1360 490" color={C.amber} w={4} p={anchor}/>
+        <P d="M 1210 570 L 1210 610 M 1210 570 L 1250 585 M 1430 570 L 1430 610 M 1430 570 L 1390 585" color={C.amber} w={3}/>
+      </g>
+    </g>}
+    {active[0]==='看见' && <g>
+      {fork(1)}
+      <Dot cx={lerp(520,1260,action)} cy={470-Math.min(1,Math.max(0,(action-.4)/.3))*150} r={11} fill={C.amber}/>
+    </g>}
+    {active[0]==='主动' && <g>
+      <Txt x={320} y={300} size={28}>主动研究</Txt><Txt x={320} y={580} size={28}>等到被迫</Txt>
+      <P d="M 320 400 L 1520 400 M 320 680 L 1520 680" color={C.line}/>
+      <Box x={400} y={355} w={180} h={90} stroke={C.amber}/>
+      <Txt x={490} y={400} anchor="middle" color={C.amber}>研究</Txt>
+      <P d="M 580 400 L 1380 400" color={C.amber} w={3} p={research}/>
+      <Dot cx={lerp(600,1390,research)} cy={400} r={10} fill={C.amber}/>
+      <Dot cx={lerp(400,1370,forced)} cy={680} r={10} fill={forced>.95?C.amber:C.muted}/>
+      <P d="M 1390 580 L 1390 760" color={C.red} w={3} opacity={.3+.7*forced}/>
+      <P d="M 1010 730 L 1010 750 L 1390 750 L 1390 730" color={C.red} w={2} p={cost}/>
+      <Txt x={1200} y={800} anchor="middle" color={C.red} opacity={cost}>不行动的代价</Txt>
+      <Txt x={1490} y={340} anchor="middle" color={C.muted}>行动</Txt>
+    </g>}
+    </g>
+  </svg>;
+};

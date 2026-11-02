@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Someone else's explanation",
+    "text": "Why can you understand an idea, yet struggle to use it? Often, you haven't really understood it for yourself. Someone else has simply explained it in a way that makes it feel clear.",
+    "anchors": {"而是": "Someone else", "讲懂": "makes it feel clear"}
+  },
+  {
+    "id": 2,
+    "title": "Three signs of an illusion",
+    "text": "While you're learning something, you may feel you understand it completely. But when you face a real problem, one of three things happens. You draw a blank. You don't even realize that something you've learned could help, as if you'd never learned it at all. Or you stumble through a few vague keywords, perhaps remembering them incorrectly. Or you sound perfectly convincing, offering one solution after another, while the problem remains completely unchanged. This is the illusion of understanding, a common experience in learning.",
+    "anchors": {"遇到具体问题": "when you face a real problem", "一脸茫然": "You draw a blank", "磕磕绊绊": "Or you stumble", "头头是道": "Or you sound perfectly convincing", "这就是在学习过程中": "This is the illusion of understanding"}
+  },
+  {
+    "id": 3,
+    "title": "Borrowing the author's structure",
+    "text": "When you learn by reading a textbook or watching a tutorial, you're actually borrowing the author's structure of knowledge to make sense of the subject.",
+    "anchors": {"借用作者的知识结构": "borrowing the author's structure", "借用": "borrowing"},
+    "captions": ["When you learn by reading a textbook or watching a tutorial,", "you're actually borrowing the author's structure of knowledge", "to make sense of the subject."]
+  },
+  {
+    "id": 4,
+    "title": "The work the author has already done",
+    "text": "The author already understands the subject deeply. They know what matters, what can be left out, what must stay, and why. They know what to explain first, and what should come next. So the information you receive is clearly expressed, with well-chosen examples, tightly connected reasoning, and language that's easy to follow.",
+    "anchors": {"可以省略": "what can be left out", "先讲什么": "what to explain first", "例子合适": "well-chosen examples", "逻辑紧密": "tightly connected reasoning"}
+  },
+  {
+    "id": 5,
+    "title": "Mistaking fluency for understanding",
+    "text": "That makes reading feel effortless. But it feels effortless because the author has worked hard to explain things in the easiest possible way for you to understand. Your brain has an instinctive shortcut: if something is easy to process, I probably understand it already. So when the reading flows smoothly, your brain reaches the wrong conclusion: I understand this now.",
+    "anchors": {"顺畅": "reading feel effortless", "本能机制": "an instinctive shortcut", "误判": "the wrong conclusion"},
+    "captions": ["That makes reading feel effortless.", "But it feels effortless because the author has worked hard", "to explain things in the easiest possible way for you to understand.", "Your brain has an instinctive shortcut:", "if something is easy to process,", "I probably understand it already.", "So when the reading flows smoothly,", "your brain reaches the wrong conclusion:", "I understand this now."]
+  }
+]
